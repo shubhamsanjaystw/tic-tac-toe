@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  -webkit-font-smoothing: antialiased;
+  font-family: Roboto, sans-serif;
+  background-color:black;
+
+}
+
+
+hr {
+    color: #FFDD05;
+    border: 1px solid #FFDD05;
+    margin:0;
+    column-rule: #FFDD05;
+} 
+
+.header {
+  pointer-events: all;
+  height: 70px;
+  z-index: 999999;
+  background: url(http://sprint-92f3.kxcdn.com/list-header.png) top no-repeat;
+  background-color: rgba(0, 0, 0, .9);
+  max-height: 100%;
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  transition: all 350ms ease-in-out;
+  padding-right: 0 !important;
+  border-top: 2px solid #FFDD05;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+}
+
+.text-logo {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 800;
+  height: 70px;
+  line-height: 70px;
+  margin: 0 10px 0 0;
+  display: initial;
+  text-decoration: none;
+}
+
+
+
+
+/* grid */
+body > div.container{
+  display: block;
+  width: 450px;
+}
+.container{
+  margin: 50px auto;
+  padding: auto;
+  height: 450px;
+  align-content: center;
+}
+.row{
+  width: 450px;
+  margin: auto;
+
+}
+
+.one-cell{
+  border-width: 0 3px 3px 0;
+  border-style: solid;
+  border-color: yellow;
+  width:150px;
+  height:150px;
+}
+.two-cell{
+border-width: 0px 3px 3px 3px;
+
+  border-style: solid;
+  border-color: yellow;
+  width:150px;
+  height:150px;
+}
+.three-cell{
+  border-width: 0px 0px 2px 2px;
+
+  border-style: solid;
+  border-color: yellow;
+  width:150px;
+  height:150px;
+}
+.four-cell{
+  border-width: 2px 2px 2px 0;
+
+  border-style: solid;
+  border-color: yellow;
+  width:150px;
+  height:150px;
+}
+.five-cell{
+  border-width: 2px 2px 2px 2px;
+
+  border-style: solid;
+  border-color: yellow;
+  width:150px;
+  height:150px;
+}
+.six-cell{
+  border-width: 2px 0px 2px 2px;
+
+  border-style: solid;
+  border-color: yellow;
+  width:150px;
+  height:150px;
+}
+.seven-cell{
+  border-width: 2px 2px 0px 0px;
+
+  border-style: solid;
+  border-color: yellow;
+  width:150px;
+  height:150px;
+}
+.eight-cell{
+  border-width: 2px 2px 0px 2px;
+
+  border-style: solid;
+  border-color: yellow;
+  width:150px;
+  height:150px;
+}
+.nine-cell{
+  border-width: 2px 0px 0px 2px;
+
+  border-style: solid;
+  border-color: yellow;
+  width:150px;
+  height:150px;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
+    font-size: 7.5rem;
+    text-align: center;
+    color:black;
+}
+.X{
+  color: #ff7171;
+}
+.O{
+  color: #70adb5;
+}
+.X-win{
+  color: #f73859;
+}
+.O-win{
+  color: #1aa6b7;
+}
+
+
+.final-text{
+  text-align: center;
+  font-size: 3.5rem;
+  color:#fff;
+  line-height: 2.5;
+}
+.judgement{
+
+}
